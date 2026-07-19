@@ -3,6 +3,7 @@
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Project Demo](#-project-demo)
 - [Live Demo](#-live-demo)
 - [Features](#-features)
 - [Architecture & Design System](#-architecture--design-system)
@@ -14,7 +15,6 @@
 - [Run the Development Server](#run-the-development-server)
 - [Build for Production](#build-for-production)
 - [Deploy on Netlify](#-deploy-on-netlify)
-- [Screenshots](#-screenshots)
 - [Future Scope](#-future-scope)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -40,6 +40,11 @@ GigFlex follows a premium **Glassmorphism UI**, vibrant gradients, dark mode, an
 The project has been designed as an **AI-ready marketplace**, allowing future integration with OpenAI, Anthropic, Groq, Gemini, or any custom LLM.
 
 ---
+## 🎥 Project Demo
+
+<p align="center">
+  <img src="demo/demo.gif" alt="GigFlex Demo" width="900">
+</p>
 
 # 🌐 Live Demo
 
@@ -308,7 +313,11 @@ gigflex/
 │   ├── main.tsx
 │   ├── index.css
 │   └── vite-env.d.ts
-│
+|
+├── demo/
+│   ├── GigFlex_Demo.mp4/
+│   ├── demo.gif/
+|
 ├── vite.config.ts
 ├── tailwind.config.js
 ├── postcss.config.cjs
@@ -333,7 +342,7 @@ gigflex/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gigflex.git
+git clone https://github.com/Harish13052005/gigflex.git
 
 cd gigflex
 ```
@@ -442,28 +451,6 @@ netlify.toml
   to = "/index.html"
   status = 200
 ```
-
----
-
-# 📷 Screenshots
-
-> Add screenshots inside
-
-```
-docs/screenshots/
-```
-
-Suggested screenshots
-
-- Home Page
-- Skill Marketplace
-- Asset Marketplace
-- Event Workforce
-- Worker Dashboard
-- Business Dashboard
-- Admin Dashboard
-- AI Pricing Assistant
-- AI Resume Generator
 
 ---
 
